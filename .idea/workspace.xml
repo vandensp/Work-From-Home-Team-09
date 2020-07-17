@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hello World HTML Page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
-      <workItem from="1594842198611" duration="32484000" />
+      <workItem from="1594842198611" duration="34600000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -91,13 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594941031568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit, dashboard and homepage done">
+      <created>1594941750622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594941750622</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit, dashboard and homepage done">
+      <created>1595006865234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595006865235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/kadeball/Work-From-Home-Team-09&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="first commit, dashboard and homepage done" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit, dashboard and homepage done" />
   </component>
@@ -106,14 +120,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594941069932" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1594941558232">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595012045355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594941558232" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1594941044381">
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012045355" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595012060485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594941044381" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012060485" />
     <state x="645" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594941731293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
