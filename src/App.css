@@ -1,0 +1,202 @@
+.App {
+}
+
+.logo {
+  height: 200px;
+  width: 175px;
+  bottom:40px;
+  position: relative;
+}
+
+.ogo {
+height: 100%;
+  width: 800px;
+  position: relative;
+  bottom: 250px;
+  left: 1000px;
+}
+
+.logo1 {
+  height: 100px;
+  width: 125px;
+  bottom:0px;
+  position: relative;
+}
+
+.head{
+  width: 100%;
+  height: 100px;
+  background-color: gold;
+  filter: drop-shadow( 2px 5px 5px  darkgrey);
+  color: black;
+}
+
+.brainImg{
+  height: 320px;
+  width: 350px;
+  border-radius: 25px;
+  border: 2px solid palegoldenrod;
+}
+
+.shadow{
+  filter: drop-shadow( 2px 2px 8px  darkgrey)
+}
+
+.headingStyle{
+  position: relative;
+  bottom: 90px;
+  left: 150px;
+}
+
+nav{
+  width: 175px;
+  height: 1750px;
+  background-color: gold;
+  position: relative;
+  bottom: 60px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+nav a{
+  display: block;
+}
+
+li a{
+  text-decoration: none;
+}
+
+nav li{
+  list-style-type: none;
+  padding: 30px
+}
+
+.dashTop{
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.box{
+  background-image: linear-gradient(-345deg, gold, palegoldenrod);
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+  width: 400px;
+  height: 150px;
+  bottom: 880px;
+  left: 250px;
+  position: relative;
+
+}
+
+.box1{
+  background-image: linear-gradient(-345deg, gold, palegoldenrod);
+  filter: drop-shadow( 2px 2px 5px lightgray);
+  width: 400px;
+  height: 150px;
+  bottom: 1054px;
+  left: 880px;
+  position: relative;
+
+}
+
+.box2{
+  background-image: linear-gradient(-345deg, gold, palegoldenrod);
+  filter: drop-shadow( 2px 2px 5px lightgray);
+  width: 400px;
+  height: 150px;
+  bottom: 1228px;
+  left: 1450px;
+  position: relative;
+
+}
+
+.taskGraph{
+  height: 500px;
+  width: 1000px;
+  box-shadow: 2px 2px lightgray;
+  filter: drop-shadow( 2px 2px 2px lightgray);
+  border: 2px solid lightgray;
+  position: relative;
+  left: 250px;
+  bottom: 1120px;
+
+}
+
+.moodGraph{
+  height: 500px;
+  width: 420px;
+  box-shadow: 2px 2px lightgray;
+  filter: drop-shadow( 2px 2px 2px lightgray);
+  border: 2px solid lightgray;
+  position: relative;
+  left: 1435px;
+  bottom: 2040px;
+
+}
+
+.taskList{
+  height: 700px;
+  width: 1610px;
+  box-shadow: 2px 2px lightgray;
+  filter: drop-shadow( 2px 2px 2px lightgray);
+  border: 2px solid lightgray;
+  position: relative;
+  left: 252px;
+  bottom: 1980px;
+}
+
+.line{
+  width:300px;
+  background-color: lightgray;
+  position: relative;
+  left: 250px;
+  height: 5px;
+  bottom: 1600px;
+}
+
+.line1{
+  width:500px;
+  background-color: lightgray;
+  position: relative;
+  height: 5px;
+  left: 255px;
+  bottom: 2560px;
+}
+
+.moodLine{
+  width:420px;
+  background-color: lightgray;
+  position: relative;
+  height: 2px;
+  top: 55px
+}
+
+#myProgress {
+  width: 800px;
+  border: 2px solid lightgray;
+  position: relative;
+  left: 215px;
+  bottom: 1600px;
+  margin: 60px;
+}
+
+#myBar {
+  width: 600px;
+  height: 30px;
+  background-color: gold;
+
+}
+
+.taskText {
+  left: 300px;
+  bottom: 2500px;
+  position: relative;
+}
+
+
