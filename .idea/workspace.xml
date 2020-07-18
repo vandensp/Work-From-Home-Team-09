@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +24,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +51,11 @@
       <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -75,6 +77,9 @@
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
       <workItem from="1594842198611" duration="34600000" />
+      <workItem from="1595038839593" duration="2160000" />
+      <workItem from="1595041018034" duration="2121000" />
+      <workItem from="1595095888900" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -108,7 +113,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/kadeball/Work-From-Home-Team-09&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
@@ -120,10 +125,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594941069932" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595096249754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595096249754" />
+    <state x="669" y="205" key="#npm_start" timestamp="1595040958083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="205" key="#npm_start/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040958083" />
+    <state x="669" y="205" key="#start" timestamp="1595041198907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="205" key="#start/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595041198907" />
+    <state x="669" y="205" key="#test" timestamp="1595040567472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="205" key="#test/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040567472" />
     <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595012045355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012045355" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1595040957430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040957430" />
+    <state width="1899" height="115" key="GridCell.Tab.0.bottom" timestamp="1595095834021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="115" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
+    <state width="1899" height="115" key="GridCell.Tab.0.center" timestamp="1595095834021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="115" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
+    <state width="1899" height="115" key="GridCell.Tab.0.left" timestamp="1595095834020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="115" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834020" />
+    <state width="1899" height="115" key="GridCell.Tab.0.right" timestamp="1595095834021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="115" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595012060485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

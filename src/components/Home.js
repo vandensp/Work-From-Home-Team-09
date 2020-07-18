@@ -1,10 +1,44 @@
-import React from "react";
+import React, { Component } from "react";
 import logo from "./logo.png"
 import {Link} from "react-router-dom";
 
+//Source of below code from Hays Stanford "https://github.com/HaysS/netlify-identity-tutorial"
+//importing Netlify Identity script
+//Must be called from React life-cycle function
+function initNetlifyIdentity(){
+    console.log("initNetlifyIdentity called.")
+    const script = document.createElement("script");
 
+    script.src = "https://identity.netlify.com/v1/netlify-identity-widget.js"
+    script.async = true;
+
+    document.body.appendChild(script);
+}
+
+function openNetlifyModal() {
+    const netlifyIdentity = window.netlifyIdentity;
+
+    if(netlifyIdentity){
+        netlifyIdentity.open();
+    }
+    else{
+        console.log('netlifyIdentity not defined')
+    }
+}
+
+class NetlifyIdentity extends Component {
+    componentDidMount() {
+        initNetlifyIdentity();
+    }
+    render() {
+        return(<div></div>)
+    }
+}
+//end of used code
 
 function Home(){
+    initNetlifyIdentity();
+
 
     let buttonStyle = {
 
@@ -54,13 +88,12 @@ function Home(){
             <h1 style={container}>Tagline to Sell Product Goes Here</h1>
             <h3 style={container1}>Description of product. We haven't really ironed out the details, but they will go here. lol</h3>
 
-        <Link to="/Home" > <img src={logo} alt="ogo" className="ogo"/></Link>
+        <Link to="/Home" > <img src={logo} alt="ogo" className="ogo"/></Link> //TODO add "openNetlifyModal()" function to these buttons
             <Link to="/Dashboard"> <button style={buttonStyle}>Log In</button></Link>
             <Link to="./Dashboard"> <button style={buttonStyle1}>Sign Up</button></Link>
         </div>
 
     )
 }
-
 
 export default Home;
