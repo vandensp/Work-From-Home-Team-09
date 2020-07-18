@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "./logo.png"
 import {Link} from "react-router-dom";
 
@@ -26,19 +26,10 @@ function openNetlifyModal() {
     }
 }
 
-class NetlifyIdentity extends Component {
-    componentDidMount() {
-        initNetlifyIdentity();
-    }
-    render() {
-        return(<div></div>)
-    }
-}
-//end of used code
+//end of Hays Stanford code
 
 function Home(){
     initNetlifyIdentity();
-
 
     let buttonStyle = {
 
@@ -88,9 +79,9 @@ function Home(){
             <h1 style={container}>Tagline to Sell Product Goes Here</h1>
             <h3 style={container1}>Description of product. We haven't really ironed out the details, but they will go here. lol</h3>
 
-        <Link to="/Home" > <img src={logo} alt="ogo" className="ogo"/></Link> //TODO add "openNetlifyModal()" function to these buttons
-            <Link to="/Dashboard"> <button style={buttonStyle}>Log In</button></Link>
-            <Link to="./Dashboard"> <button style={buttonStyle1}>Sign Up</button></Link>
+        <Link to="/Home" > <img src={logo} alt="ogo" className="ogo"/></Link>
+            <input id="logIn" type="button" style={buttonStyle1} value="Login or Sign Up" onClick={() => {openNetlifyModal()} }/>
+
         </div>
 
     )
