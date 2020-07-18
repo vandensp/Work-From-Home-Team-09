@@ -166,7 +166,7 @@ nav li{
   position: relative;
   height: 5px;
   left: 255px;
-  bottom: 2560px;
+  bottom: 2625px;
 }
 
 .moodLine{
@@ -194,9 +194,7 @@ nav li{
 }
 
 .taskText {
-  left: 300px;
-  bottom: 2500px;
-  position: relative;
+ text-align: center;
 }
 
 

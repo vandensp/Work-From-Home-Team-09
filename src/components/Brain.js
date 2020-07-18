@@ -10,7 +10,7 @@ const brainPics =[
         img: "https://www.mentalfloss.com/bundles/mfsite/images/global/mf_logo_tag.png",
     },
     {
-        img:"https://lh3.googleusercontent.com/proxy/oLme5sdYnhYSBdMDvPt3jv7b2PZXyiVFf9u9FFF9AOsVUUBtj4-CFlRtj5QNCMPIte0Hj1ej_2o-8ozyuWmk-LyAtvFuqgKku4XgyL0cXq-KMe0gxA",
+        img:"https://media.glassdoor.com/sqll/731186/sporcle-squarelogo-1559754698321.png",
     },
     {
         img: "https://www.buzzfeed.com/static-assets/quizparty/_next/static/img/social.69a29d068d8ad7e450e06d31d85595f1.jpg",

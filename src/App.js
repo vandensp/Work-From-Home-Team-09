@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Brain from "./components/Brain";
 import Home from "./components/Home";
+import Task from "./components/Task";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
                 <Route path='/'  component={Home}  exact/>
                 <Route exact path='/Dashboard' component={Dashboard}/>
                 <Route path='/Brain' component={Brain}  exact/>
-                <Route path='/'   exact/>
+                <Route path='/Task' component={Task}   exact/>
                 <Route path='/'  exact/>
                 <Route path='/'   exact/>
             </Switch>
