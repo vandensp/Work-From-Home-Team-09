@@ -6,6 +6,8 @@ import Dashboard from "./components/Dashboard";
 import Brain from "./components/Brain";
 import Home from "./components/Home";
 import Task from "./components/Task";
+import Productivity from "./components/Productivity";
+import Mood from "./components/Mood";
 
 function App() {
   return (
@@ -16,8 +18,8 @@ function App() {
                 <Route exact path='/Dashboard' component={Dashboard}/>
                 <Route path='/Brain' component={Brain}  exact/>
                 <Route path='/Task' component={Task}   exact/>
-                <Route path='/'  exact/>
-                <Route path='/'   exact/>
+                <Route path='/Productivity' component={Productivity}   exact/>
+                <Route path='/Mood' component={Mood}   exact/>
             </Switch>
         </Router>
     </div>

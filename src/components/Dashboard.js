@@ -138,8 +138,8 @@ function Dashboard(){
             <img className="logo" src={logo} alt="logo"/>
             <li><HomeIcon style={styles}><Link to="/"></Link></HomeIcon>Dashboard</li>
             <li><ListAltIcon style={styles}></ListAltIcon><Link to="/Task">Task Management</Link></li>
-            <li><TrendingUpIcon style={styles}><Link to="/"></Link></TrendingUpIcon>Productivity</li>
-            <li><MoodIcon style={styles}> <Link to="/"></Link></MoodIcon>Mood Check-In</li>
+            <li><TrendingUpIcon style={styles}></TrendingUpIcon><Link to="/Productivity">Productivity</Link></li>
+            <li><MoodIcon style={styles}></MoodIcon><Link to="/Mood">Mood Check-In</Link> </li>
             <li><img src={brain} style={styles1} alt="brain"/> <Link to="/Brain">Brain Break</Link></li>
 
             <div className="box">

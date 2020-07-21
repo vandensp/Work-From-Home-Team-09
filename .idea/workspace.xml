@@ -5,10 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Heading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +44,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
     </key>
   </component>
@@ -80,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
       <workItem from="1594842198611" duration="43146000" />
+      <workItem from="1595252020568" duration="23809000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -141,14 +139,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594941069932" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595012182186">
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595274347587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012182186" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595012202715">
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595274347587" />
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595039984720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012202715" />
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595039984720" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595040003841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595040003841" />
     <state x="645" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594941731293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,5 +159,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594859232797" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595283823679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595283823679" />
   </component>
 </project>

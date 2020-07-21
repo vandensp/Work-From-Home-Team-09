@@ -31,11 +31,27 @@ height: 100%;
   color: black;
 }
 
+
 .brainImg{
   height: 320px;
   width: 350px;
   border-radius: 25px;
   border: 2px solid palegoldenrod;
+}
+
+.productImg{
+  height: 490px;
+  width: 870px;
+  border-radius: 25px;
+  border: 2px solid palegoldenrod;
+}
+
+.productImg1{
+  height: 490px;
+  width: 615px;
+  border-radius: 25px;
+  border: 2px solid palegoldenrod;
+  position: relative;
 }
 
 .shadow{
@@ -151,6 +167,33 @@ nav li{
   bottom: 1980px;
 }
 
+.taskList1{
+  box-shadow: 2px 2px lightgray;
+  filter: drop-shadow( 2px 2px 2px lightgray);
+  border-radius: 15px;
+  border: 2px solid lightgray;
+  position: relative;
+  left: 150px;
+  width: 1575px;
+  height: 625px;
+}
+
+.taskList2{
+  box-shadow: 2px 2px lightgray;
+  filter: drop-shadow( 2px 2px 2px lightgray);
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  position: relative;
+  left: 140px;
+  top: 100px;
+  width: 1575px;
+  height: 625px;
+  margin: 15px;
+}
+
+
+
+
 .line{
   width:300px;
   background-color: lightgray;
@@ -197,4 +240,61 @@ nav li{
  text-align: center;
 }
 
+.form{
+  position: relative;
+  top: 50px;
+  left: 500px;
+}
+
+.commentBox{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 240px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+.moodImg{
+  height: 270px;
+  width: 350px;
+  border-radius: 25px;
+  border: 2px solid palegoldenrod;
+  margin: 10px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+  position: relative;
+  right: 100px;
+
+}
+
+.moodText{
+  position: relative;
+  left: 50px;
+}
+
+.moodText1{
+  position: relative;
+  left: 250px;
+}
+
+.moodText2{
+  position: relative;
+  left: 193px;
+  top: 45px;
+}
+
+.submit{
+  width: 285px;
+  height: 50px;
+  background-color: gold;
+  filter: drop-shadow( 2px 2px 5px dimgrey);
+  border: none;
+  position: relative;
+  left: 800px;
+  top: 150px;
+}
 
