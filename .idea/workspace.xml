@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Samue.xml" afterDir="false" />
+    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="Login button now links to Netlify Identity Login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1595038839593" duration="2160000" />
       <workItem from="1595041018034" duration="2121000" />
       <workItem from="1595095888900" duration="1035000" />
-      <workItem from="1595111055827" duration="1998000" />
+      <workItem from="1595111055827" duration="4383000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595006865235</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Login button now links to Netlify Identity Login">
+      <created>1595113208855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595113208855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/kadeball/Work-From-Home-Team-09&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="first commit, dashboard and homepage done" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit, dashboard and homepage done" />
+    <MESSAGE value="Login button now links to Netlify Identity Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login button now links to Netlify Identity Login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1594941069932">
@@ -196,9 +202,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="115" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595012060485">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595113211753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595113211753" />
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012060485" />
     <state x="645" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594941731293">
       <screen x="0" y="0" width="1920" height="1040" />
