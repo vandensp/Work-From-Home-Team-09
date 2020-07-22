@@ -31,23 +31,23 @@ function createData(title, date, priority, status ) {
 }
 
 const rows = [
-    createData('Make a Wireframe', '7/2/2020', 'High', "In Progress"),
-    createData('Talk about Design', '7/11/2020', "Low", "In Progress"),
+    createData('Make a Wireframe', '7/2/2020', 'High', "Complete"),
+    createData('Talk about Design', '7/11/2020', "Low", "Complete"),
     createData('Create User Stories', "7/15/2020", "Medium", "Complete"),
     createData('Create User Persona', "7/18/2020", "High", "Complete"),
-    createData('Write Project Description', "7/20/20", "Low", "In Progress"),
+    createData('Write Project Description', "7/20/20", "Low", "Complete"),
 ];
 
 const useStyles = makeStyles({
     table: {
-        width: 1610,
-        height: 625,
+        width: 1575,
+        height: 625
 
 
     },
 });
 
-export default function CustomizedTables() {
+export default function Table1() {
     const classes = useStyles();
 
     return (

@@ -2,6 +2,7 @@ import React from "react"
 import {Link} from "react-router-dom";
 import logo from "./logo.png";
 import "../App.css";
+import Table from "./Table"
 import HomeIcon from "@material-ui/icons/Home";
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
@@ -52,7 +53,7 @@ function Dashboard(){
         position: "relative",
         marginLeft: "40px",
         color: "#606060",
-        top: "45px"
+        top: "0px"
 
     };
 
@@ -126,6 +127,7 @@ function Dashboard(){
 
 
     return(
+        <div>
         <nav>
             <div className="dashTop" style={dashTop}>
                 <AccountCircleIcon style={iconStyle}/>
@@ -135,9 +137,9 @@ function Dashboard(){
 
             <img className="logo" src={logo} alt="logo"/>
             <li><HomeIcon style={styles}><Link to="/"></Link></HomeIcon>Dashboard</li>
-            <li><ListAltIcon style={styles}><Link to="/"></Link></ListAltIcon>Task Management</li>
-            <li><TrendingUpIcon style={styles}><Link to="/"></Link></TrendingUpIcon>Productivity</li>
-            <li><MoodIcon style={styles}> <Link to="/"></Link></MoodIcon>Mood Check-In</li>
+            <li><ListAltIcon style={styles}></ListAltIcon><Link to="/Task">Task Management</Link></li>
+            <li><TrendingUpIcon style={styles}></TrendingUpIcon><Link to="/Productivity">Productivity</Link></li>
+            <li><MoodIcon style={styles}></MoodIcon><Link to="/Mood">Mood Check-In</Link> </li>
             <li><img src={brain} style={styles1} alt="brain"/> <Link to="/Brain">Brain Break</Link></li>
 
             <div className="box">
@@ -177,21 +179,19 @@ function Dashboard(){
             </div>
 
             <div className="taskList">
+                <div>
                 <h1 style={textStyle2}>List of Tasks</h1>
+                <Table/>
+                </div>
             </div>
+
             <div className="line1"/>
 
-            <div className="taskText">
-                <h1>Make a Wireframe</h1>
-                <p>7/8/2020</p>
-                <p>High Priority</p>
-                <p>In Progress</p>
-            </div>
-
-
-
-
         </nav>
+
+        </div>
+
+
     )}
 
 
