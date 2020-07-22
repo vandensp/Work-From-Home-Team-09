@@ -9,7 +9,7 @@ function Heading(){
 
     return(
         <div className="head">
-            <Link to="/" > <img src={logo} alt="ogo" className="logo1"/></Link>
+            <Link to="/Dashboard" > <img src={logo} alt="ogo" className="logo1"/></Link>
         </div>
     )
 }
