@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="Login button now links to Netlify Identity Login">
+    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +23,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,18 +41,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bunny\WebstormProjects\busybee\src\components" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -93,11 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
-      <workItem from="1594842198611" duration="34600000" />
-      <workItem from="1595038839593" duration="2160000" />
-      <workItem from="1595041018034" duration="2121000" />
-      <workItem from="1595095888900" duration="1035000" />
-      <workItem from="1595111055827" duration="4383000" />
+      <workItem from="1594842198611" duration="43146000" />
+      <workItem from="1595252020568" duration="25089000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -127,86 +104,57 @@
       <option name="project" value="LOCAL" />
       <updated>1595006865235</updated>
     </task>
-    <task id="LOCAL-00005" summary="Login button now links to Netlify Identity Login">
-      <created>1595113208855</created>
+    <task id="LOCAL-00005" summary="added CI=">
+      <created>1595012046049</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1595113208855</updated>
+      <updated>1595012046049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed the issue with showing up">
+      <created>1595012182930</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595012182930</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed the issue with showing up">
+      <created>1595352019186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595352019186</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'master' of https://github.com/kadeball/Work-From-Home-Team-09&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="first commit, dashboard and homepage done" />
-    <MESSAGE value="Login button now links to Netlify Identity Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login button now links to Netlify Identity Login" />
+    <MESSAGE value="added CI=" />
+    <MESSAGE value="fixed the issue with showing up" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the issue with showing up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1594941069932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594941069932" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595096249754">
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595274347587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595096249754" />
-    <state x="669" y="205" key="#npm_start" timestamp="1595040958083">
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595274347587" />
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595352018488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="205" key="#npm_start/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040958083" />
-    <state x="669" y="205" key="#start" timestamp="1595041198907">
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595352018488" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595352028157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="205" key="#start/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595041198907" />
-    <state x="669" y="205" key="#test" timestamp="1595040567472">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="669" y="205" key="#test/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040567472" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595012045355">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012045355" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1595040957430">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595040957430" />
-    <state width="1899" height="115" key="GridCell.Tab.0.bottom" timestamp="1595095834021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="115" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
-    <state width="1899" height="115" key="GridCell.Tab.0.center" timestamp="1595095834021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="115" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
-    <state width="1899" height="115" key="GridCell.Tab.0.left" timestamp="1595095834020">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="115" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834020" />
-    <state width="1899" height="115" key="GridCell.Tab.0.right" timestamp="1595095834021">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="115" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595095834021" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595113211753">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595113211753" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595012060485" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595352028157" />
     <state x="645" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594941731293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,5 +163,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594859232797" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595283823679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595283823679" />
   </component>
 </project>
