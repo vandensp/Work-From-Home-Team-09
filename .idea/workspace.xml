@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
+    <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="add add task button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Productivity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Productivity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Task.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
       <workItem from="1594842198611" duration="43146000" />
-      <workItem from="1595252020568" duration="25089000" />
+      <workItem from="1595252020568" duration="33330000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595352019186</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dashboard">
+      <created>1595386997701</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595386997701</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +148,8 @@
     <MESSAGE value="first commit, dashboard and homepage done" />
     <MESSAGE value="added CI=" />
     <MESSAGE value="fixed the issue with showing up" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the issue with showing up" />
+    <MESSAGE value="dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1594941069932">
@@ -147,14 +160,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595274347587" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595352018488">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595471638563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595352018488" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595352028157">
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595471638563" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595387005779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595352028157" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595387005779" />
+    <state x="610" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595448005801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595448005801" />
     <state x="645" y="293" key="git4idea.merge.GitPullDialog" timestamp="1594941731293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

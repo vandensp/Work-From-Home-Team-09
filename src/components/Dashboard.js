@@ -111,9 +111,6 @@ function Dashboard(){
 
     };
 
-    let text = {
-        display: "inline"
-    };
 
     let moodPic = {
         position: "relative",

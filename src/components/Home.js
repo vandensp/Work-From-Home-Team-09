@@ -46,13 +46,14 @@ function Home(){
         height: "100px",
         width: "350px",
         position: "relative",
-        top: "200px",
+        top: "100px",
         left: "280px"
     };
     return(
         <div>
-            <h1 style={container}>Tagline to Sell Product Goes Here</h1>
-            <h3 style={container1}>Description of product. We haven't really ironed out the details, but they will go here. lol</h3>
+            <h1 style={container}>Busy Bee</h1>
+            <h2 style={container}>Getting Things Done</h2>
+            <h3 style={container1}>A interactive productivity app that is dedicated to tracking both your mood and your tasks. Catered specifically to you and getting things done.  </h3>
 
         <Link to="/Home" > <img src={logo} alt="ogo" className="ogo"/></Link>
             <Link to="/Dashboard"> <button style={buttonStyle}>Log In</button></Link>
