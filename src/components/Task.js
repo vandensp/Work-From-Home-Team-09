@@ -129,7 +129,7 @@ function Task(){
             {renderTasks()}
             <div>
                 <h1 style={heading}>Add Task</h1>
-                <Link to="http://keagan-wong.epizy.com/tasks.php"><AddCircleIcon style={iconStyle} className="addIcon"></AddCircleIcon></Link>
+                <Link to="keagan-wong.epizy.com/tasks.php"><AddCircleIcon style={iconStyle} className="addIcon"></AddCircleIcon></Link>
             </div>
         </div>
 

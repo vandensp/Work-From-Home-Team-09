@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import Heading from "./Heading";
+import {Link} from "react-router-dom";
+
 
 const brainPics =[
     {
@@ -37,7 +39,7 @@ function Brain(){
             return<div style={styles}>
 
                 <div className="shadow">
-                    <img className='brainImg' alt="brain" src={brain.img}/>
+                    <Link to="www.poptropica.com"><img className='brainImg' alt="brain" src={brain.img}/></Link>
 
                 </div>
             </div>
