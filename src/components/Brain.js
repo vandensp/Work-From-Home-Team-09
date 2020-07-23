@@ -39,7 +39,7 @@ function Brain(){
             return<div style={styles}>
 
                 <div className="shadow">
-                    <Link to="www.poptropica.com"><img className='brainImg' alt="brain" src={brain.img}/></Link>
+                    <a href="https://www.poptropica.com"><img className='brainImg' alt="brain" src={brain.img}/></a>
 
                 </div>
             </div>
