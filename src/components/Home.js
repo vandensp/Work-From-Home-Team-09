@@ -5,7 +5,6 @@ import netlifyIdentity from "netlify-identity-widget";
 
 function Home(){
     netlifyIdentity.open();
-    //loginUser();
     let buttonStyle = {
 
         position: "relative",
