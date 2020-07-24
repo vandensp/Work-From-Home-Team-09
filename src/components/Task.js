@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import Heading from "./Heading";
-import {Link} from "react-router-dom";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 
 const taskList =[
@@ -20,7 +19,7 @@ const taskList =[
         title: "Talk to Team about Design",
         date: "7/15/2020",
         priority: "Medium",
-        progress: "In Progess"    },
+        progress: "In Progress"    },
     {
         title: "Create Story Board",
         date: "7/18/2020",
