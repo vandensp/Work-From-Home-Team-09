@@ -12,7 +12,6 @@ import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import brain from "./brain.PNG";
 import mood from "./mood.PNG";
-import {loginUser, logoutUser} from "../components/identityActions";
 import netlifyIdentity from "netlify-identity-widget";
 
 function Dashboard(){
@@ -41,13 +40,13 @@ function Dashboard(){
 
     let textStyle = {
         position: "relative",
-        marginLeft: "1430px",
-        bottom: "30px"
+        marginLeft: "1350px",
+        bottom: "40px"
     };
 
     let textStyle1 = {
         position: "relative",
-        marginLeft: "1430px",
+        marginLeft: "1350px",
         bottom: "50px"
     };
 
@@ -129,7 +128,19 @@ function Dashboard(){
 
     };
 
-
+    let buttonStyle = {
+        position: "relative",
+        left:    "1350px",
+        backgroundColor: "Black",
+        bottom: "60px",
+        color: "Gold",
+        height: "40px",
+        width: "150px",
+        border: "none",
+        margin: "0px 0px",
+        fontFamily: "Serif",
+        fontSize: "20px",
+    };
 
 
     return(
@@ -138,7 +149,7 @@ function Dashboard(){
                 <div className="dashTop" style={dashTop}>
                     <AccountCircleIcon style={iconStyle}/>
                     <h1 style={textStyle}>{user.user_metadata.full_name}</h1>
-                    <h4 style={textStyle1}>Account Settings</h4>
+                    <Link to="/"> <button style={buttonStyle}>Log Out</button></Link>
                 </div>
 
                 <img className="logo" src={logo} alt="logo"/>
