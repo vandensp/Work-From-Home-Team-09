@@ -245,12 +245,54 @@ nav li{
   left: 500px;
 }
 
+
+
 .commentBox{
   height: 200px;
   width: 450px;
   border: 2px solid gold;
   position: relative;
-  right: 240px;
+  right: 230px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+.commentBox3{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 420px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+.commentBox1{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 270px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+
+.commentBox2{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 200px;
   margin-top: 100px;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -277,12 +319,12 @@ nav li{
 
 .moodText1{
   position: relative;
-  left: 250px;
+  left: 150px;
 }
 
 .moodText2{
   position: relative;
-  left: 193px;
+  left: 200px;
   top: 45px;
 }
 
