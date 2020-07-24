@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import Heading from "./Heading";
+import {Link} from "react-router-dom";
+import AddCircleIcon from "@material-ui/icons/AddCircle";
 
 const taskList =[
     {
@@ -107,11 +109,28 @@ function Task(){
     }
 
 
+    let iconStyle= {
+
+        fontSize: "35px"
+
+    };
+
+    let heading={
+        position: "relative",
+        bottom: "1035px",
+        left: "1720px"
+    };
+
+
     return(
         <div>
             <Heading/>
-            <h1 className="headingStyle">Mood Check-In</h1>
+            <h1 className="headingStyle">Task Management</h1>
             {renderTasks()}
+            <div>
+                <h1 style={heading}>Add Task</h1>
+                <a href="http://keagan-wong.epizy.com/tasks.php"><AddCircleIcon style={iconStyle} className="addIcon"></AddCircleIcon></a>
+            </div>
         </div>
 
     )

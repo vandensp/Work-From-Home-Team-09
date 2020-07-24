@@ -111,9 +111,6 @@ function Dashboard(){
 
     };
 
-    let text = {
-        display: "inline"
-    };
 
     let moodPic = {
         position: "relative",
@@ -121,6 +118,13 @@ function Dashboard(){
         left: "3px",
         width: "415px",
         height:"440px"
+    };
+
+    let numStyle = {
+        position: "relative",
+        bottom:"15px",
+        left: "50px",
+
     };
 
 
@@ -145,13 +149,16 @@ function Dashboard(){
             <div className="box">
                 <h1 style={textBox}>Total Tasks</h1>
                 <ListAltIcon style={icon}/>
+                <h6 style={numStyle}>27</h6>
             </div>
             <div className="box1">
                 <h1 style={textBox}>Completed Tasks</h1>
                 <CheckCircleIcon style={icon1}/>
+                <h6 style={numStyle}>82</h6>
             </div>
             <div className="box2"><h1 style={textBox}>Pending Tasks</h1>
                 <AssignmentTurnedInIcon style={icon1}/>
+                <h6 style={numStyle}>18</h6>
             </div>
 
             <div className="taskGraph"/>
