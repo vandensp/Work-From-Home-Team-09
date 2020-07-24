@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Mood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mood.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594842196571</updated>
       <workItem from="1594842198611" duration="43146000" />
-      <workItem from="1595252020568" duration="42369000" />
+      <workItem from="1595252020568" duration="43686000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, dashboard and homepage done">
       <created>1594934108828</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595541296773</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed questions">
+      <created>1595562465710</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595562465710</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +175,8 @@
     <MESSAGE value="changed home screen" />
     <MESSAGE value="trying to get the link to work" />
     <MESSAGE value="got the links to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="got the links to work" />
+    <MESSAGE value="fixed questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed questions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Notifications" timestamp="1594941069932">
@@ -181,14 +187,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595274347587" />
-    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595541295999">
+    <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595562464933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595541295999" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595541303467">
+    <state x="583" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595562464933" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1595562476209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595541303467" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595562476209" />
     <state x="610" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595448005801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
