@@ -9,10 +9,9 @@
 }
 
 .ogo {
-height: 100%;
-  width: 800px;
+  width: 700px;
   position: relative;
-  bottom: 250px;
+  bottom: 350px;
   left: 1000px;
 }
 
@@ -171,7 +170,7 @@ nav li{
   box-shadow: 2px 2px lightgray;
   filter: drop-shadow( 2px 2px 2px lightgray);
   border-radius: 15px;
-  border: 2px solid lightgray;
+  border: 2px solid palegoldenrod;
   position: relative;
   left: 150px;
   width: 1575px;
@@ -181,7 +180,7 @@ nav li{
 .taskList2{
   box-shadow: 2px 2px lightgray;
   filter: drop-shadow( 2px 2px 2px lightgray);
-  border: 2px solid lightgray;
+  border: 2px solid palegoldenrod;
   border-radius: 15px;
   position: relative;
   left: 140px;
@@ -237,7 +236,7 @@ nav li{
 }
 
 .taskText {
- text-align: center;
+  text-align: center;
 }
 
 .form{
@@ -246,12 +245,54 @@ nav li{
   left: 500px;
 }
 
+
+
 .commentBox{
   height: 200px;
   width: 450px;
   border: 2px solid gold;
   position: relative;
-  right: 240px;
+  right: 230px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+.commentBox3{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 420px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+.commentBox1{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 270px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  filter: drop-shadow( 2px 2px 5px lightgray);
+
+}
+
+
+.commentBox2{
+  height: 200px;
+  width: 450px;
+  border: 2px solid gold;
+  position: relative;
+  right: 200px;
   margin-top: 100px;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -278,12 +319,12 @@ nav li{
 
 .moodText1{
   position: relative;
-  left: 250px;
+  left: 150px;
 }
 
 .moodText2{
   position: relative;
-  left: 193px;
+  left: 200px;
   top: 45px;
 }
 
@@ -298,3 +339,9 @@ nav li{
   top: 150px;
 }
 
+.addIcon{
+  position: relative;
+  bottom: 1095px;
+  float: right;
+  font-size: 30px;
+}

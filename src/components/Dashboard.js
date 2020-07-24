@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React from "react"
 import {Link} from "react-router-dom";
 import logo from "./logo.png";
 import "../App.css";
@@ -15,20 +15,14 @@ import mood from "./mood.PNG";
 import {loginUser, logoutUser} from "../components/identityActions";
 import netlifyIdentity from "netlify-identity-widget";
 
-//userID class based off of code from https://www.netlify.com/blog/2017/10/30/how-to-add-netlify-identity-service-to-react-projects/
 function Dashboard(){
     const user = netlifyIdentity.currentUser();
     if (!user){
         window.location = "/";
     }
-    console.log("user.meta_data.full_name: ", user.user_metadata);
 
-    if (!user){
-        window.location = "/";
-    }
-    console.log("user: ", user);
     let styles = {
-      display: "block",
+        display: "block",
         fontSize: "30px",
         position: "relative",
         left: "15px",
@@ -81,7 +75,7 @@ function Dashboard(){
     };
 
     let icon = {
-       display: "block",
+        display: "block",
         position: "relative",
         left: "220px",
         bottom: "10px",
@@ -98,10 +92,10 @@ function Dashboard(){
 
     let dashTop = {
         width:"1735px",
-    height: "100px",
-    backgroundColor: "gold",
-    position: "relative",
-    left:"170px",
+        height: "100px",
+        backgroundColor: "gold",
+        position: "relative",
+        left:"170px",
         top:"50px"
     };
 
@@ -119,9 +113,6 @@ function Dashboard(){
 
     };
 
-    let text = {
-        display: "inline"
-    };
 
     let moodPic = {
         position: "relative",
@@ -131,85 +122,81 @@ function Dashboard(){
         height:"440px"
     };
 
-    let buttonStyle = {
-
+    let numStyle = {
         position: "relative",
-        backgroundColor: "black",
-        color: "white",
-        left: "1450px",
-        bottom: "50px",
-        height: "30px",
-        width: "100px",
-        border: "none",
-        margin: "10px 10px",
-        fontSize: "18px",
-        textAlign: "Center"
+        bottom:"15px",
+        left: "50px",
+
     };
+
+
 
 
     return(
         <div>
-        <nav>
-            <div className="dashTop" style={dashTop}>
-                <AccountCircleIcon style={iconStyle}/>
-                <h1 style={textStyle}>{user.user_metadata.full_name}</h1>
-                <h2 style={buttonStyle} onClick={logoutUser}>Log Out </h2>
-
-            </div>
-
-            <img className="logo" src={logo} alt="logo"/>
-            <li><HomeIcon style={styles}><Link to="/"></Link></HomeIcon>Dashboard</li>
-            <li><ListAltIcon style={styles}></ListAltIcon><Link to="/Task">Task Management</Link></li>
-            <li><TrendingUpIcon style={styles}></TrendingUpIcon><Link to="/Productivity">Productivity</Link></li>
-            <li><MoodIcon style={styles}></MoodIcon><Link to="/Mood">Mood Check-In</Link> </li>
-            <li><img src={brain} style={styles1} alt="brain"/> <Link to="/Brain">Brain Break</Link></li>
-
-            <div className="box">
-                <h1 style={textBox}>Total Tasks</h1>
-                <ListAltIcon style={icon}/>
-            </div>
-            <div className="box1">
-                <h1 style={textBox}>Completed Tasks</h1>
-                <CheckCircleIcon style={icon1}/>
-            </div>
-            <div className="box2"><h1 style={textBox}>Pending Tasks</h1>
-                <AssignmentTurnedInIcon style={icon1}/>
-            </div>
-
-            <div className="taskGraph"/>
-            <div>
-            <h1 style={textGraph}>Task Progress</h1>
-            </div>
-            <div className="line"/>
-
-            <div id="myProgress">
-                <div id="myBar"></div>
-            </div>
-
-            <div id="myProgress">
-                <div id="myBar"></div>
-            </div>
-
-            <div id="myProgress">
-                <div id="myBar"></div>
-            </div>
-
-            <div className="moodGraph">
-                <div className="moodLine"></div>
-                <h1 style={moodText}> Mood Graph</h1>
-                <img src={mood} style={moodPic} alt="mood"/>
-            </div>
-
-            <div className="taskList">
-                <div>
-                <h1 style={textStyle2}>List of Tasks</h1>
-                <Table/>
+            <nav>
+                <div className="dashTop" style={dashTop}>
+                    <AccountCircleIcon style={iconStyle}/>
+                    <h1 style={textStyle}>{user.user_metadata.full_name}</h1>
+                    <h4 style={textStyle1}>Account Settings</h4>
                 </div>
-            </div>
 
-            <div className="line1"/>
+                <img className="logo" src={logo} alt="logo"/>
+                <li><HomeIcon style={styles}><Link to="/"></Link></HomeIcon>Dashboard</li>
+                <li><ListAltIcon style={styles}></ListAltIcon><Link to="/Task">Task Management</Link></li>
+                <li><TrendingUpIcon style={styles}></TrendingUpIcon><Link to="/Productivity">Productivity</Link></li>
+                <li><MoodIcon style={styles}></MoodIcon><Link to="/Mood">Mood Check-In</Link> </li>
+                <li><img src={brain} style={styles1} alt="brain"/> <Link to="/Brain">Brain Break</Link></li>
 
-        </nav>
+                <div className="box">
+                    <h1 style={textBox}>Total Tasks</h1>
+                    <ListAltIcon style={icon}/>
+                    <h6 style={numStyle}>27</h6>
+                </div>
+                <div className="box1">
+                    <h1 style={textBox}>Completed Tasks</h1>
+                    <CheckCircleIcon style={icon1}/>
+                    <h6 style={numStyle}>82</h6>
+                </div>
+                <div className="box2"><h1 style={textBox}>Pending Tasks</h1>
+                    <AssignmentTurnedInIcon style={icon1}/>
+                    <h6 style={numStyle}>18</h6>
+                </div>
+
+                <div className="taskGraph"/>
+                <div>
+                    <h1 style={textGraph}>Task Progress</h1>
+                </div>
+                <div className="line"/>
+
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                </div>
+
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                </div>
+
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                </div>
+
+                <div className="moodGraph">
+                    <div className="moodLine"></div>
+                    <h1 style={moodText}> Mood Graph</h1>
+                    <img src={mood} style={moodPic} alt="mood"/>
+                </div>
+
+                <div className="taskList">
+                    <div>
+                        <h1 style={textStyle2}>List of Tasks</h1>
+                        <Table/>
+                    </div>
+                </div>
+
+                <div className="line1"/>
+
+            </nav>
 
         </div>
 

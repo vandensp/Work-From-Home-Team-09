@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/identityActions" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/identityActions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Mood.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Mood.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
