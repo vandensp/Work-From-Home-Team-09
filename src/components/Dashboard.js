@@ -1,4 +1,4 @@
-import React from "react"
+import React, {Component} from "react"
 import {Link} from "react-router-dom";
 import logo from "./logo.png";
 import "../App.css";
@@ -12,13 +12,21 @@ import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import brain from "./brain.PNG";
 import mood from "./mood.PNG";
+import {loginUser, logoutUser} from "../components/identityActions";
+import netlifyIdentity from "netlify-identity-widget";
 
-
-
-
-
+//userID class based off of code from https://www.netlify.com/blog/2017/10/30/how-to-add-netlify-identity-service-to-react-projects/
 function Dashboard(){
+    const user = netlifyIdentity.currentUser();
+    if (!user){
+        window.location = "/";
+    }
+    console.log("user.meta_data.full_name: ", user.user_metadata);
 
+    if (!user){
+        window.location = "/";
+    }
+    console.log("user: ", user);
     let styles = {
       display: "block",
         fontSize: "30px",
@@ -123,7 +131,20 @@ function Dashboard(){
         height:"440px"
     };
 
+    let buttonStyle = {
 
+        position: "relative",
+        backgroundColor: "black",
+        color: "white",
+        left: "1450px",
+        bottom: "50px",
+        height: "30px",
+        width: "100px",
+        border: "none",
+        margin: "10px 10px",
+        fontSize: "18px",
+        textAlign: "Center"
+    };
 
 
     return(
@@ -131,8 +152,9 @@ function Dashboard(){
         <nav>
             <div className="dashTop" style={dashTop}>
                 <AccountCircleIcon style={iconStyle}/>
-                <h1 style={textStyle}>Rebecca Acker</h1>
-                <h4 style={textStyle1}>Account Settings</h4>
+                <h1 style={textStyle}>{user.user_metadata.full_name}</h1>
+                <h2 style={buttonStyle} onClick={logoutUser}>Log Out </h2>
+
             </div>
 
             <img className="logo" src={logo} alt="logo"/>
