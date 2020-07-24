@@ -2,7 +2,7 @@
 
 import netlifyIdentity from "netlify-identity-widget";
 
-export function loginUser() {
+function loginUser() {
     if (netlifyIdentity && netlifyIdentity.currentUser()) {
     const {
         app_metadata, created_at, confirmed_at, email, id, user_metadata
@@ -15,6 +15,6 @@ export function loginUser() {
 }
 }
 
-export function logoutUser() {
+function logoutUser() {
     localStorage.removeItem("currentOpenSaucedUser");
 }

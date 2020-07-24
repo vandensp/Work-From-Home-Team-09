@@ -9,7 +9,24 @@ import Task from "./components/Task";
 import Productivity from "./components/Productivity";
 import Mood from "./components/Mood";
 import netlifyIdentity from "netlify-identity-widget";
-import {loginUser, logoutUser} from "./components/identityActions";
+//import {loginUser, logoutUser} from "./components/identityActions";
+
+function loginUser() {
+    if (netlifyIdentity && netlifyIdentity.currentUser()) {
+        const {
+            app_metadata, created_at, confirmed_at, email, id, user_metadata
+        } = netlifyIdentity.currentUser();
+
+        localStorage.setItem(
+            "currentOpenSaucedUser",
+            JSON.stringify({...app_metadata, created_at, confirmed_at, email, id, ...user_metadata})
+        );
+    }
+}
+
+function logoutUser() {
+    localStorage.removeItem("currentOpenSaucedUser");
+}
 
 class App extends Component { // borrowed from https://www.netlify.com/blog/2017/10/30/how-to-add-netlify-identity-service-to-react-projects/
     state = {user: null};

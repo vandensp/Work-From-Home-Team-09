@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3176a5b6-1ec7-48f6-85dd-f70c2d47a556" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/identityActions" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/identityActions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,9 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1594941069932" />
-    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595274347587">
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595569315047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1595569315047" />
     <state x="1042" y="348" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595274347587" />
     <state x="583" y="0" key="CommitChangelistDialog2" timestamp="1595567410109">
       <screen x="0" y="0" width="1920" height="1040" />
